@@ -20,7 +20,4 @@ def batch_gen(X, batch_size):
         
 
 
-if __name__ == "__main__":
-    X = np.random.rand(123, 32)
-    for batch in batch_gen(X, 21):
-        print batch.shape
+
